@@ -11,6 +11,21 @@ The workflow includes:
 - Critical analysis of results
 
 ---
+## Dataset
+
+This project uses the EEG Depression dataset (responders vs non-responders), containing multi-channel EEG recordings of patients before and after antidepressant treatment.
+Dataset source:
+https://physionet.org/content/eegmat/1.0.0/
+
+To run the pipeline, download the .edf files and place them under:
+```
+data/raw/
+```
+Alternatively, provide your own data directory when running the training script.
+
+> [!WARNING]
+> This repository does not include the EEG dataset due to size constraints. 
+> Please download the dataset separately and place the .edf files under `data/raw/`.
 
 ## Project Structure
 ```

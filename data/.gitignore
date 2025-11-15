@@ -1,0 +1,15 @@
+# Ignore raw EEG files
+raw/
+processed/
+
+# Ignore large data formats
+*.edf
+*.zip
+*.npy
+*.mat
+*.pkl
+*.csv
+*.txt
+
+# Ignore temporary files
+.DS_Store
